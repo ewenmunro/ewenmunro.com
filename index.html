@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <!-- link to styles worksheet -->
+        <link href="styles.css" rel="stylesheet" type="text/css">
+
+        <!-- observer worksheet -->
+        <script src="script.js" type="text/javascript"></script>
+
+        <!-- homepage title -->
+        <title>Ewen Munro</title>
+
+        <!-- photo icon -->
+        <link rel="shortcut icon" href="header_photo.jpg" type="image/x-icon">
+
+        <!-- font awesome kit code -->
+        <script src="https://kit.fontawesome.com/30c8ebe528.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="header">
+
+            <!-- homepage header image -->
+            <img src="homepage_header_image.jpg" class="header-image-background">
+            
+            <!-- menu -->
+            <div id="mySidebar" class="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                        <li><a href="https://ewenmunro.com">Home</a></li>
+                        <li><a href="https://ewenmunro.com/about">About</a></li>
+                        <li><a href="#" id="films">Films</a>
+                            <ul>
+                                <li><a href="https://ewenmunro.com/sunyata">Śūnyatā</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.buymeacoffee.com/ewenmunro" target="_blank">Buy Me A Coffee</a></li>
+                        <li><a href="https://ewenmunro.com/contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- menu button -->  
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
+        </header>
+        <main>
+            <div class="columns">
+                <div class="homepage-map col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26502.213681682853!2d151.1872783864894!3d-33.86964497871448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3f3298a729%3A0xef50fa5572780602!2sSydney%20CBD%2C%20NSW!5e0!3m2!1sen!2sau!4v1633744078031!5m2!1sen!2sau" width="600" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="homepage-about-text col">
+                    
+                    <!-- homepage about heading -->
+                    <h1>About</h1>
+    
+                    <!-- about -->
+                    <p>I am a filmmaker from Sydney, Australia that produces feature films to send to film festivals around the world.
+                        I like to make films that cannot be described, films that cannot be reduced to a label, or a genre, or an idea.
+                        These are the films that I enjoy watching, so these are the films that I am making and sharing with the world.</p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="homepage-sunyata-text col">
+                    
+                    <!-- Śūnyatā homepage text -->
+                    <h1>Śūnyatā</h1>
+                    
+                    <!-- comming soon message -->
+                    <p>Coming Soon</p>
+                </div>
+                <div>
+                    
+                    <!-- Śūnyatā homepage image -->
+                    <img src="sunyata_image.jpg" id="homepage-image-sunyata" class="col">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="social-menu">
+                <ul>
+
+                    <!-- social media links -->
+                    <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="copyright-text">
+                
+                <!-- copyright -->
+                Copyright &#169; Ewen Munro 2021
+            </div>
+        </footer>
+    </body>
+</html>
