@@ -41,7 +41,7 @@ html{
 
 /* header image background */
 .header-image-background{
-  position:fixed;
+  position:absolute;
   right:0;
   bottom:0;
   min-width:100%;
