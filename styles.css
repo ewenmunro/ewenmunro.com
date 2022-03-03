@@ -255,6 +255,13 @@ body{
   font-family:garamond;
 }
 
+.sunyata-page-text h2{
+  margin-top:30px;
+  font-size:4vw;
+  text-align:center;
+  font-family:garamond;
+}
+
 .sunyata-page-text p{
   padding-top:20px;
   font-size:2vw;
