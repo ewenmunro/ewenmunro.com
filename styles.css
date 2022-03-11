@@ -417,24 +417,24 @@ footer{
   transform:translate(0,-10px);
 }
 
-/* instagram link */
-.social-menu ul li:nth-child(1) a:hover{
-  background-color:#E4405F;
-}
-
 /* youtubelink */
-.social-menu ul li:nth-child(2) a:hover{
+.social-menu ul li:nth-child(1) a:hover{
   background-color:#CD201F;
 }
 
-/* fb link */
-.social-menu ul li:nth-child(3) a:hover{
-  background-color:#1877F2;
+/* instagram link */
+.social-menu ul li:nth-child(2) a:hover{
+  background-color:#E4405F;
 }
 
 /* twitter link */
-.social-menu ul li:nth-child(4) a:hover{
+.social-menu ul li:nth-child(3) a:hover{
   background-color:#1DA1F2;
+}
+
+/* fb link */
+.social-menu ul li:nth-child(4) a:hover{
+  background-color:#1877F2;
 }
 
 /* style the copyright text */
