@@ -98,6 +98,10 @@ html{
   color:white;
 }
 
+#tv:hover{
+  color:white;
+}
+
 .sidebar .closebtn {
   position: relative;
   top: 0;
@@ -342,6 +346,39 @@ body{
 #homepage-image-sunyata{
   margin-top:30px;
   margin-right:30px;
+  float:right;
+  width:600px;
+  height:360px;
+  display:flex;
+  flex-direction:row;
+  box-shadow: 5px 5px 10px black;
+}
+
+/* homepage The Many Faces of You */
+.homepage-the-many-faces-of-you-text{
+  margin-left:30px;
+  float:right;
+  width:50%;
+  height:100%;
+}
+
+.homepage-the-many-faces-of-you-text h1{
+  margin-top:30px;
+  font-size:5vw;
+  text-align:center;
+  font-family:garamond;
+}
+
+.homepage-the-many-faces-of-you-text p{
+  padding-top:20px;
+  font-size:2vw;
+  text-align:center;
+  font-family:garamond;
+}
+
+#homepage-image-the-many-faces-of-you{
+  margin-top:30px;
+  margin-left:30px;
   float:right;
   width:600px;
   height:360px;
