@@ -383,6 +383,31 @@ body{
   background:#0079c1;
 }
 
+/* Patreon Button */
+.patreon-donate{
+  position:absolute;
+  margin-top:50px;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.patreon-donate-btn{
+  background:white;
+  text-decoration:none;
+  color:#ff4f58;
+  font-size:25px;
+  font-family:garamond;
+  margin:5px;
+  padding:12px 30px;
+  border-radius:50px;
+  transition: all .3s ease-in-out;
+}
+
+.patreon-donate-btn:hover{
+  color:black;
+  background:#ff4f58;
+}
+
 /* Buy Me A Coffee Button */
 .buy-me-a-coffee-donate{
   position:absolute;
