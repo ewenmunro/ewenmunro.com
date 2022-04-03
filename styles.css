@@ -367,7 +367,7 @@ body{
 }
 
 .paypal-donate-btn{
-  background:#0079c1;
+  background:#00457c;
   text-decoration:none;
   color:white;
   font-size:25px;
@@ -379,8 +379,8 @@ body{
 }
 
 .paypal-donate-btn:hover{
-  color:#0079c1;
-  background:#00457c;
+  color:#00457c;
+  background:#0079c1;
 }
 
 /* Buy Me A Coffee Button */
