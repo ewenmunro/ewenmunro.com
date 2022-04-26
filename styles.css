@@ -352,6 +352,30 @@ body{
   background:red;
 }
 
+/* The Infinite Faces of Man Button */
+.the-infinite-faces-of-man{
+  position:absolute;
+  margin-top:50px;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.the-infinite-faces-of-man-btn{
+  background:black;
+  text-decoration:none;
+  color:white;
+  font-size:25px;
+  font-family:garamond;
+  margin:5px;
+  padding:12px 30px;
+  border-radius:50px;
+  transition: all .3s ease-in-out;
+}
+
+.the-infinite-faces-of-man-btn:hover{
+  background:red;
+}
+
 /* The Many Faces of You page text */
 .the-many-faces-of-you-page-text{
   margin-right:30px;
