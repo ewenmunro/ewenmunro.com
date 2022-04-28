@@ -376,6 +376,31 @@ body{
   background:red;
 }
 
+/* Birth-Life-Death IMDB Button */
+.birth-life-death-imdb{
+  position:absolute;
+  margin-top:50px;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.birth-life-death-imdb-btn{
+  background:black;
+  text-decoration:none;
+  color:white;
+  font-size:25px;
+  font-family:garamond;
+  margin:5px;
+  padding:12px 30px;
+  border-radius:50px;
+  transition: all .3s ease-in-out;
+}
+
+.birth-life-death-imdb-btn:hover{
+  color:black;
+  background:#DBA506;
+}
+
 /* The Many Faces of You page text */
 .the-many-faces-of-you-page-text{
   margin-right:30px;
@@ -625,6 +650,39 @@ body{
   box-shadow: 5px 5px 10px black;
 }
 
+/* homepage Duḥkha */
+.homepage-duhkha-text{
+  margin-left:30px;
+  float:right;
+  width:50%;
+  height:100%;
+}
+
+.homepage-duhkha-text h1{
+  margin-top:30px;
+  font-size:5vw;
+  text-align:center;
+  font-family:garamond;
+}
+
+.homepage-duhkha-text p{
+  padding-top:20px;
+  font-size:2vw;
+  text-align:center;
+  font-family:garamond;
+}
+
+#homepage-image-duhkha{
+  margin-top:30px;
+  margin-right:30px;
+  float:right;
+  width:600px;
+  height:360px;
+  display:flex;
+  flex-direction:row;
+  box-shadow: 5px 5px 10px black;
+}
+
 /* homepage The Many Faces of You */
 .homepage-the-many-faces-of-you-text{
   margin-left:30px;
@@ -649,7 +707,7 @@ body{
 
 #homepage-image-the-many-faces-of-you{
   margin-top:30px;
-  margin-right:30px;
+  margin-left:30px;
   float:right;
   width:600px;
   height:360px;
