@@ -813,14 +813,14 @@ footer{
   background-color:#CD201F;
 }
 
-/* vimeo link */
+/* instagram link */
 .social-menu ul li:nth-child(2) a:hover{
-  background-color: #19B7EA;
+  background-color:#E4405F;
 }
 
-/* instagram link */
+/* vimeo link */
 .social-menu ul li:nth-child(3) a:hover{
-  background-color:#E4405F;
+  background-color: #19B7EA;
 }
 
 /* twitter link */
