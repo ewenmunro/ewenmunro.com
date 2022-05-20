@@ -536,31 +536,6 @@ body{
   background:#FFDD00;
 }
 
-/* Coinbase Button */
-.coinbase-donate{
-  position:absolute;
-  margin-top:50px;
-  left:50%;
-  transform:translate(-50%,-50%);
-}
-
-.coinbase-donate-btn{
-  background:white;
-  text-decoration:none;
-  color:#2c44fc;
-  font-size:25px;
-  font-family:garamond;
-  margin:5px;
-  padding:12px 30px;
-  border-radius:50px;
-  transition: all .3s ease-in-out;
-}
-
-.coinbase-donate-btn:hover{
-  color:white;
-  background:#011082;
-}
-
 /* thanks page text */
 .thanks-page-text{
   margin-right:30px;
