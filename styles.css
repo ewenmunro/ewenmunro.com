@@ -328,6 +328,13 @@ body{
   font-family:garamond;
 }
 
+/* Anattā Soundtrack */
+.anatta-soundtrack-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 /* The Fallacy of Improvement Button */
 .the-fallacy-of-improvement{
   position:absolute;
@@ -411,6 +418,13 @@ body{
   font-size:2vw;
   text-align:center;
   font-family:garamond;
+}
+
+/* Duḥkha Soundtrack */
+.duhkha-soundtrack-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 /* Birth-Life-Death IMDB Button */
