@@ -587,6 +587,31 @@ body{
   background:#FFDD00;
 }
 
+/* Ko-fi Button */
+.ko-fi-donate{
+  position:absolute;
+  margin-top:50px;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.ko-fi-donate-btn{
+  background:#434B57;
+  text-decoration:none;
+  color:#FF5E5B;
+  font-size:25px;
+  font-family:garamond;
+  margin:5px;
+  padding:12px 30px;
+  border-radius:50px;
+  transition: all .3s ease-in-out;
+}
+
+.ko-fi-donate-btn:hover{
+  color:#FF5E5B;
+  background:#13C3FF;
+}
+
 /* thanks page text */
 .thanks-page-text{
   margin-right:30px;
