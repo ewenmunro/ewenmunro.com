@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ewenmunro.com
+Token: 68186eff890d8385b518556f2dd1b93a3ffc5537b45eea33f444e629fc6f915e
