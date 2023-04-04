@@ -194,8 +194,8 @@ body {
 
 /* homepage right align text */
 .homepage-right-text {
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
   float: right;
   width: 50%;
   height: 100%;
@@ -217,8 +217,8 @@ body {
 
 /* homepage left align text */
 .homepage-left-text {
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
   float: left;
   width: 50%;
   height: 100%;
@@ -311,6 +311,7 @@ body {
 /* flex container */
 #flex-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -386,7 +387,19 @@ body {
 .page-text p a:hover {
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: red;
+}
+
+.page-text ul {
+  text-align: left;
+  font-size: 2vw;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0;
+}
+
+.page-text ul li {
+  margin: 10px 0;
 }
 
 /* map */
@@ -425,6 +438,8 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 10px;
+  flex: 1 1 auto;
+  max-width: 320px;
 }
 
 /* title link */
@@ -597,75 +612,6 @@ body {
   background-color: #ffdd00;
 }
 
-/* ko-fi button */
-.ko-fi-btn {
-  background-color: #434b57;
-  text-decoration: none;
-  color: #ff5e5b;
-  font-size: 2vw;
-  font-family: Garamond;
-  margin: 5px;
-  padding: 6px 15px;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.ko-fi-btn:hover {
-  cursor: pointer;
-  color: #ff5e5b;
-  background-color: #13c3ff;
-}
-
-/* contact page form */
-.contact-box {
-  margin-top: -30px;
-  margin-bottom: -30px;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  outline: none;
-}
-
-.contact-form {
-  margin: 35px;
-}
-
-.contact-input-field {
-  width: 400px;
-  height: 40px;
-  margin-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: Garamond;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
-  border-radius: 14px;
-  outline: none;
-}
-
-.contact-message-area {
-  height: 150px;
-  padding-top: 10px;
-}
-
-.contact-message-btn {
-  border-radius: 20px;
-  color: white;
-  margin-top: 18px;
-  padding: 6px 15px;
-  background-color: black;
-  font-size: 2vw;
-  font-family: Garamond;
-  border: none;
-  cursor: pointer;
-}
-
-.contact-message-btn:hover {
-  cursor: pointer;
-  background-color: red;
-}
-
 /* footer */
 footer {
   margin-top: auto;
@@ -751,6 +697,7 @@ footer {
     width: 100vw;
     height: 33vh;
     margin-top: auto;
+    margin-bottom: 15%;
   }
 
   /* header video */
@@ -811,18 +758,80 @@ footer {
     }
   }
 
-  /* contact input field */
-  .contact-input-field {
-    width: 250px;
-    height: 40px;
+  /* homepage right align text */
+  .homepage-right-text {
+    margin-right: 5px;
+    margin-left: 5px;
+    float: right;
+    width: 100%;
+    height: 100%;
+  }
+
+  .homepage-right-text h1 {
     margin-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 3vw;
+    text-align: center;
     font-family: Garamond;
-    border: 1px solid black;
+  }
+
+  .homepage-right-text p {
+    padding-top: 20px;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: Garamond;
+  }
+
+  /* homepage left align text */
+  .homepage-left-text {
+    margin-right: 5px;
+    margin-left: 5px;
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+
+  .homepage-left-text h1 {
+    margin-top: 30px;
+    font-size: 3vw;
+    text-align: center;
+    font-family: Garamond;
+  }
+
+  .homepage-left-text p {
+    padding-top: 20px;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: Garamond;
+  }
+
+  /* homepage right align image */
+  #homepage-right-image {
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
     display: flex;
     flex-direction: row;
-    border-radius: 14px;
-    outline: none;
+    box-shadow: 5px 5px 10px black;
+  }
+
+  /* homepage left align image */
+  #homepage-left-image {
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    box-shadow: -5px 5px 10px black;
+  }
+
+  #flex-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
