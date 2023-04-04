@@ -402,18 +402,6 @@ body {
   margin: 10px 0;
 }
 
-/* map */
-#map {
-  margin-top: 30px;
-  display: flex;
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 5px 5px 10px black;
-}
-
 /* IMDB button */
 .imdb-btn {
   background-color: black;
