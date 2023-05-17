@@ -600,6 +600,25 @@ body {
   background-color: #ffdd00;
 }
 
+/* coinbase commerce button */
+.coinbase-btn {
+  background-color: white;
+  text-decoration: none;
+  color: #1652f0;
+  font-size: 2vw;
+  font-family: Garamond;
+  margin: 5px;
+  padding: 6px 15px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.coinbase-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #1652f0;
+}
+
 /* footer */
 footer {
   margin-top: auto;
