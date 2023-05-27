@@ -466,6 +466,23 @@ body {
   box-shadow: 5px 5px 10px black;
 }
 
+/* digital film flyers */
+.digital-flyer {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 40%;
+  max-width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 10px black;
+}
+
+#digital-flyer {
+  margin-bottom: -30%;
+}
+
 /* film stills */
 .images-container {
   margin-top: 30px;
@@ -710,7 +727,7 @@ footer {
     width: 100vw;
     height: 33vh;
     margin-top: auto;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
   }
 
   /* header video */
