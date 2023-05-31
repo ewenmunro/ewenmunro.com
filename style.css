@@ -658,8 +658,8 @@ footer {
 }
 
 .social-menu ul li .fa {
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 25px;
+  line-height: 55px;
   transition: 0.2s;
   color: black;
 }
@@ -667,9 +667,9 @@ footer {
 .social-menu ul li a {
   position: relative;
   display: block;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
   background-color: white;
   text-align: center;
   transition: 0.2s;
@@ -727,7 +727,7 @@ footer {
     width: 100vw;
     height: 33vh;
     margin-top: auto;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
   }
 
   /* header video */
