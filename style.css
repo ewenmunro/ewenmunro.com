@@ -402,25 +402,6 @@ body {
   margin: 10px 0;
 }
 
-/* IMDB button */
-.imdb-btn {
-  background-color: black;
-  text-decoration: none;
-  color: white;
-  font-size: 2vw;
-  font-family: Garamond;
-  margin: 5px;
-  padding: 6px 15px;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.imdb-btn:hover {
-  cursor: pointer;
-  color: black;
-  background-color: #dba506;
-}
-
 /* soundtrack */
 .soundtrack-container {
   justify-content: center;
