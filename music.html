@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- UTF-8 -->
+    <meta charset="UTF-8" />
+    <!-- responsive web-design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Internet Explorer compatible -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- css worksheet -->
+    <link href="./style.css" rel="stylesheet" />
+    <!-- javascript worksheet -->
+    <script src="script.js" type="text/javascript"></script>
+    <!-- Music page title -->
+    <title>Music</title>
+    <!-- photo icon -->
+    <link
+      rel="shortcut icon"
+      href="./image/header_image.png"
+      type="image/x-icon"
+    />
+    <!-- social sharing image -->
+    <meta property="og:image" content="https://ewenmunro.com/music.png" />
+    <!-- font awesome kit code -->
+    <script
+      src="https://kit.fontawesome.com/30c8ebe528.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <!-- The Fallacy of Improvement header image-->
+      <figure>
+        <img
+          src="./image/music_image.png"
+          class="header-image"
+          alt="Japanese wind chime image from Ewen's film Śūnyatā"
+        />
+      </figure>
+      <!-- menu -->
+      <section id="mySidebar" class="sidebar">
+        <nav>
+          <ul>
+            <li>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+            </li>
+            <li><a href="https://ewenmunro.com/">Home</a></li>
+            <li><a href="https://ewenmunro.com/about">About</a></li>
+            <li>
+              <a href="#" id="dropdown">Films</a>
+              <ul>
+                <li><a href="https://ewenmunro.com/sunyata">Śūnyatā</a></li>
+                <li>
+                  <a href="https://ewenmunro.com/undisclosed-film-project">
+                    Undisclosed Film Project</a
+                  >
+                </li>
+                <li>
+                  <a href="https://ewenmunro.com/undisclosed-film-project-2">
+                    Undisclosed Film Project II</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Books</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/the-flow-of-all-things">
+                    The Flow of All Things</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Stage Plays</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/the-infinite-faces-of-man">
+                    The Infinite Faces of Man</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Essays</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/the-fallacy-of-improvement">
+                    The Fallacy of Improvement</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://ewenmunro.com/music">Music</a>
+            </li>
+            <li>
+              <a href="https://ewenmunro.com/dev-portfolio">Dev Portfolio</a>
+            </li>
+            <li>
+              <a href="https://ewenmunro.com/weekly-reflections"
+                >Weekly Reflections</a
+              >
+            </li>
+            <li><a href="https://ewenmunro.com/coffee">Buy Me A Coffee</a></li>
+            <li>
+              <a href="https://society6.com/ewenmunro/all" target="_blank"
+                >Film Merch Store</a
+              >
+            </li>
+            <li><a href="https://ewenmunro.com/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+      <!-- menu button -->
+      <section id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+      </section>
+    </header>
+    <main>
+      <section class="columns">
+        <article class="page-text">
+          <br />
+          <!-- discount code message -->
+          <p>
+            Get a 20% discount code for all my music when you subscribe to the
+            <i>Weekly Reflections</i> newsletter.
+          </p>
+          <!-- Weekly Reflections button -->
+          <p>
+            <i>Weekly Reflections</i> is my free, end-of-the-week newsletter
+            where I share reflections on life, people and myself, straight to
+            your inbox.
+          </p>
+          <p>
+            Subscribe to <i>Weekly Reflections</i> via the following button:
+          </p>
+          <!-- Weekly Reflections button -->
+          <div class="btn-container">
+            <a
+              href="https://ewenmunro.substack.com/?showWelcome=true"
+              target="_blank"
+              class="btn"
+              >Weekly Reflections</a
+            >
+          </div>
+          <br /><br /><br /><br /><br />
+          <!-- Music heading -->
+          <h1>Music:</h1>
+          <!-- Anattā soundtrack heading -->
+          <h2>Undisclosed Fim Project Soundtrack:</h2>
+          <br />
+          <div id="flex-container">
+            <!-- Anattā soundtrack: No I -->
+            <div class="soundtrack-container">
+              <p>Track I: No I</p>
+              <br />
+              <audio controls controlslist="nodownload">
+                <source
+                  src="./music/anatta_soundtrack_no_i.mp3"
+                  type="audio/mpeg"
+                />
+                This track is not compatible with your browser, switch browsers
+                to listen
+              </audio>
+            </div>
+            <br />
+            <!-- Anattā soundtrack: No Light -->
+            <div class="soundtrack-container">
+              <p>Track II: No Light</p>
+              <br />
+              <audio controls controlslist="nodownload">
+                <source
+                  src="./music/anatta_soundtrack_no_light.mp3"
+                  type="audio/mpeg"
+                />
+                This track is not compatible with your browser, switch browsers
+                to listen
+              </audio>
+            </div>
+            <br />
+            <!-- Anattā soundtrack: No Honor -->
+            <div class="soundtrack-container">
+              <p>Track III: No Honor</p>
+              <br />
+              <audio controls controlslist="nodownload">
+                <source
+                  src="./music/anatta_soundtrack_no_honor.mp3"
+                  type="audio/mpeg"
+                />
+                This track is not compatible with your browser, switch browsers
+                to listen
+              </audio>
+            </div>
+          </div>
+          <br />
+          <!-- Buy Anattā soundtrack -->
+          <p>Buy the WAV file(s) via the following buttons:</p>
+          <div id="flex-container">
+            <div class="btn-flex-container">
+              <a
+                href="https://buy.stripe.com/8wM8Aw9r5dowfAc8wz"
+                target="_blank"
+                class="btn"
+                >No I</a
+              >
+            </div>
+            <div class="btn-flex-container">
+              <a
+                href="https://buy.stripe.com/6oE8AweLp5W45ZCeUY"
+                target="_blank"
+                class="btn"
+                >No Light</a
+              >
+            </div>
+            <div class="btn-flex-container">
+              <a
+                href="https://buy.stripe.com/00g8Aw6eT84c0FicMR"
+                target="_blank"
+                class="btn"
+                >No Honor</a
+              >
+            </div>
+          </div>
+          <br /><br /><br />
+          <!-- Duḥkha soundtrack heading -->
+          <h2>Undisclosed Film Project II Soundtrack:</h2>
+          <!-- Duḥkha soundtrack: No Universe -->
+          <div id="flex-container">
+            <div class="soundtrack-container">
+              <p>Track I: No Universe</p>
+              <br />
+              <audio controls controlslist="nodownload">
+                <source
+                  src="./music/duhkha_soundtrack_no_universe.mp3"
+                  type="audio/mpeg"
+                />
+                This track is not compatible with your browser, switch browsers
+                to listen
+              </audio>
+            </div>
+          </div>
+          <br />
+          <!-- Buy Duḥkha soundtrack -->
+          <p>Buy the WAV file via the following button:</p>
+          <div id="flex-container">
+            <div class="btn-flex-container">
+              <a
+                href="https://buy.stripe.com/6oEdUQfPt5W41JmfZ4"
+                target="_blank"
+                class="btn"
+                >No Universe</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section class="social-menu">
+        <ul>
+          <!-- social media links -->
+          <li>
+            <a href="https://youtube.com/c/ewenmunro" target="_blank">
+              <i class="fa fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/ewenmunro" target="_blank">
+              <i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/officialewenmunro/"
+              target="_blank"
+            >
+              <i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/ewenmunro" target="_blank">
+              <i class="fa fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ewenmunro/" target="_blank">
+              <i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <section class="copyright-text">
+        <!-- copyright -->
+        Copyright &#169; Ewen Munro 2023
+      </section>
+    </footer>
+  </body>
+</html>
