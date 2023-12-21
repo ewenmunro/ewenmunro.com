@@ -215,6 +215,18 @@ body {
   font-family: Garamond;
 }
 
+.homepage-right-text p a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.homepage-right-text p a:hover {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* homepage left align text */
 .homepage-left-text {
   margin-right: 50px;
@@ -236,6 +248,18 @@ body {
   font-size: 2vw;
   text-align: center;
   font-family: Garamond;
+}
+
+.homepage-left-text p a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.homepage-left-text p a:hover {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* homepage right align image */
@@ -400,6 +424,10 @@ body {
 
 .page-text ul li {
   margin: 10px 0;
+}
+
+.page-text ul li ul li {
+  margin: 10px 30px;
 }
 
 /* soundtrack */
