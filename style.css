@@ -447,14 +447,22 @@ body {
 /* Modal content */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto;
+  margin: 30px auto;
   padding: 20px;
   border: 1px solid #888;
   text-align: center;
   width: 50%;
 }
 
+#modal-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .modal-content h2 {
+  margin-top: 20px;
   font-size: 3.5vw;
   text-align: center;
   font-family: Garamond;
@@ -857,7 +865,7 @@ footer {
   /* Modal content */
   .modal-content {
     width: 75%;
-    margin: 50% auto;
+    margin: 30% auto;
   }
 
   .modal-content h2 {
