@@ -741,6 +741,13 @@ footer {
   color: black;
 }
 
+.social-menu ul li .social-image {
+  height: 100%;
+  width: 50%;
+  transition: 0.2s;
+  color: black;
+}
+
 .social-menu ul li a {
   position: relative;
   display: block;
@@ -764,10 +771,10 @@ footer {
   background-color: #cd201f;
 }
 
-/* fb link */
+/* twitter/x link */
 .social-menu ul li:nth-child(2) a:hover {
   cursor: pointer;
-  background-color: #1877f2;
+  background-color: black;
 }
 
 /* instagram link */
