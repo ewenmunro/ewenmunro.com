@@ -771,10 +771,10 @@ footer {
   background-color: #cd201f;
 }
 
-/* twitter/x link */
+/* facebook link */
 .social-menu ul li:nth-child(2) a:hover {
   cursor: pointer;
-  background-color: black;
+  background-color: #1877F2;
 }
 
 /* instagram link */
