@@ -783,8 +783,14 @@ footer {
   background-color: #e4405f;
 }
 
-/* instagram link */
+/* tiktok link */
 .social-menu ul li:nth-child(4) a:hover {
+  cursor: pointer;
+  background-color: #EE1D51;
+}
+
+/* letterboxd link */
+.social-menu ul li:nth-child(5) a:hover {
   cursor: pointer;
   background-color: #445566;
 }
