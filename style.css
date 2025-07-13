@@ -713,6 +713,54 @@ body {
   background-color: #1652f0;
 }
 
+/* contact me */
+.contact-container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.contact-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styles */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+}
+
+.contact-form button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: red;
+}
+
 /* footer */
 footer {
   margin-top: auto;
@@ -774,7 +822,7 @@ footer {
 /* facebook link */
 .social-menu ul li:nth-child(2) a:hover {
   cursor: pointer;
-  background-color: #1877F2;
+  background-color: #1877f2;
 }
 
 /* instagram link */
@@ -786,7 +834,7 @@ footer {
 /* tiktok link */
 .social-menu ul li:nth-child(4) a:hover {
   cursor: pointer;
-  background-color: #EE1D51;
+  background-color: #ee1d51;
 }
 
 /* letterboxd link */
