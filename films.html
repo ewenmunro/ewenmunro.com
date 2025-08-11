@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- UTF-8 -->
+    <meta charset="UTF-8" />
+    <!-- responsive web-design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Internet Explorer compatible -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- css worksheet -->
+    <link href="./style.css" rel="stylesheet" />
+    <!-- javascript worksheet -->
+    <script src="script.js" type="text/javascript" defer></script>
+    <!-- Films page title -->
+    <title>Films</title>
+    <!-- photo icon -->
+    <link
+      rel="shortcut icon"
+      href="./image/header_image.png"
+      type="image/x-icon"
+    />
+    <!-- social sharing image -->
+    <meta property="og:image" content="https://ewenmunro.com/films_image.png" />
+    <!-- font awesome kit code -->
+    <script
+      src="https://kit.fontawesome.com/30c8ebe528.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Anattā header image-->
+      <figure>
+        <img
+          src="./image/films_image.png"
+          class="header-image"
+          alt="Films title on abstract background"
+        />
+      </figure>
+      <!-- menu -->
+      <section id="mySidebar" class="sidebar">
+        <nav>
+          <ul>
+            <li>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+            </li>
+            <li><a href="https://ewenmunro.com/">Home</a></li>
+            <li><a href="https://ewenmunro.com/about">About</a></li>
+            <li>
+              <a href="#" id="dropdown">Films</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/anatta"> Anattā</a>
+                </li>
+                <li><a href="https://ewenmunro.com/sunyata">Śūnyatā</a></li>
+                <li>
+                  <a href="https://ewenmunro.com/undisclosed-film-project">
+                    Undisclosed Film Project</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Books</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/the-flow-of-all-things">
+                    The Flow of All Things</a
+                  >
+                </li>
+                <li>
+                  <a href="https://ewenmunro.com/the-shadow-stalker">
+                    The Shadow Stalker</a
+                  >
+                </li>
+                <li>
+                  <a href="https://ewenmunro.com/shadows">
+                    Shadows (photobook)</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Screenplays</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/sunyata-screenplay">
+                    Śūnyatā</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Stage Plays</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/the-infinite-faces-of-man">
+                    The Infinite Faces of Man</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Essays</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/the-fallacy-of-improvement">
+                    The Fallacy of Improvement</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://ewenmunro.com/music">Music</a>
+            </li>
+            <li><a href="https://ewenmunro.com/coffee">Buy Me A Coffee</a></li>
+            <li>
+              <a
+                href="https://ewenmunro.substack.com/?showWelcome=true"
+                target="_blank"
+                >Ewen's Journal</a
+              >
+            </li>
+            <li><a href="https://ewenmunro.com/contact">Contact</a></li>
+            <br /><br />
+          </ul>
+        </nav>
+      </section>
+      <!-- menu button -->
+      <section id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+      </section>
+    </header>
+    <main>
+      <section class="columns">
+        <article class="page-text">
+          <!-- Anattā image -->
+          <figure>
+            <img
+              src="./image/anatta_image.png"
+              id="image"
+              alt="Anattā poster of The Heroine holding a knife"
+            />
+          </figure>
+          <!-- Anattā heading -->
+          <h1>Anattā:</h1>
+          <!-- Anattā message-->
+          <p>
+            This film is currently in being submitted to film festivals.
+            Subscribe to Ewen's Journal for the latest on this film project:
+          </p>
+          <div id="flex-container">
+            <div class="btn-flex-container">
+              <a
+                href="https://ewenmunro.substack.com/?showWelcome=true"
+                target="_blank"
+                class="btn"
+                >Ewen's Journal</a
+              >
+            </div>
+          </div>
+          <br />
+          <h2>Logline:</h2>
+          <p>
+            A young actor plays a rude, obnoxious, know-it-all in a film who,
+            after losing her job, sets out to 'teach the world a lesson.'
+          </p>
+          <br />
+          <!-- Śūnyatā image -->
+          <figure>
+            <img
+              src="./image/sunyata_image.png"
+              id="image"
+              alt="Śūnyatā poster of Woman and Man hugging each other blended together"
+            />
+          </figure>
+          <!-- Śūnyatā heading -->
+          <h1>Śūnyatā:</h1>
+          <!-- Śūnyatā trailer-->
+          <h2>Official Trailer:</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7k153RWbqEs?si=jQcslqWO0tDjjne8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            id="video"
+          ></iframe>
+          <br />
+          <!-- Śūnyatā logline -->
+          <h2>Logline:</h2>
+          <p>
+            In her small apartment, a woman receives an unusual visit from the
+            man she claims to miss.
+          </p>
+          <br />
+          <!-- Śūnyatā online screener -->
+          <h2>Watch Śūnyatā:</h2>
+          <p>Watch Śūnyatā online for just $3 USD:</p>
+          <div id="flex-container">
+            <div class="btn-flex-container">
+              <a
+                href="https://buymeacoffee.com/ewenmunro/e/436278"
+                target="_blank"
+                class="btn"
+                >Watch Online</a
+              >
+            </div>
+          </div>
+          <br />
+          <p>Or download Śūnyatā to own for just $10 USD:</p>
+          <div id="flex-container">
+            <div class="btn-flex-container">
+              <a
+                href="https://mypremo.com/view-event/895"
+                target="_blank"
+                class="btn"
+                >Download</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+      <br /><br /><br /><br />
+      <section class="columns">
+        <article class="page-text">
+          <!-- newsletter heading -->
+          <h1>Ewen's Journal</h1>
+          <!-- newsletter -->
+          <p>
+            Subscribe to stay updated on my latest projects and creative work.
+          </p>
+          <div class="btn-container">
+            <a
+              href="https://ewenmunro.substack.com/?showWelcome=true"
+              target="_blank"
+              class="btn"
+              >Subscribe</a
+            >
+          </div>
+        </article>
+      </section>
+      <!-- <br /><br /><br /> -->
+    </main>
+    <footer>
+      <!-- <section class="social-menu">
+        <ul> -->
+      <!-- social media links -->
+      <!-- <li>
+            <a href="https://youtube.com/c/ewenmunro" target="_blank">
+              <i class="fa fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/ewenmunro" target="_blank">
+              <i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ewenmunro08" target="_blank">
+              <i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@ewenmunro08" target="_blank">
+              <img
+                src="./svg/tiktok-brands-solid.svg"
+                class="social-image"
+                alt="Tiktok logo"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://letterboxd.com/ewenmunro/" target="_blank">
+              <img
+                src="./svg/letterboxd-brands-solid.svg"
+                class="social-image"
+                alt="LetterBox logo of three circles interlaced with each other"
+              />
+            </a>
+          </li>
+        </ul>
+      </section> -->
+      <section class="copyright-text">
+        <!-- copyright -->
+        Copyright &#169; Ewen Munro 2025
+      </section>
+    </footer>
+  </body>
+</html>
