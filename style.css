@@ -713,6 +713,25 @@ body {
   background-color: #1652f0;
 }
 
+/* letterboxd button */
+.letterboxd-btn {
+  background-color: white;
+  text-decoration: none;
+  color: #00e054;
+  font-size: 2vw;
+  font-family: Garamond;
+  margin: 5px;
+  padding: 6px 15px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.letterboxd-btn:hover {
+  cursor: pointer;
+  color: #ff8000;
+  background-color: #445566;
+}
+
 /* contact me */
 .contact-container {
   background: white;
