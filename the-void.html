@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- UTF-8 -->
+    <meta charset="UTF-8" />
+    <!-- responsive web-design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Internet Explorer compatible -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- css worksheet -->
+    <link href="./style.css" rel="stylesheet" />
+    <!-- javascript worksheet -->
+    <script src="script.js" type="text/javascript" defer></script>
+    <!-- The Void title -->
+    <title>The Void</title>
+    <!-- photo icon -->
+    <link
+      rel="shortcut icon"
+      href="./image/header_image.png"
+      type="image/x-icon"
+    />
+    <!-- social sharing image -->
+    <meta
+      property="og:image"
+      content="https://ewenmunro.com/the_void_image.png"
+    />
+    <!-- font awesome kit code -->
+    <script
+      src="https://kit.fontawesome.com/30c8ebe528.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <!-- The Void header image-->
+      <figure>
+        <img
+          src="./image/the_void_image.png"
+          class="header-image"
+          alt="A white infinity symbol in the middle of a white circle against a black background"
+        />
+      </figure>
+      <!-- menu -->
+      <section id="mySidebar" class="sidebar">
+        <nav>
+          <ul>
+            <li>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+            </li>
+            <li><a href="https://ewenmunro.com/">Home</a></li>
+            <li><a href="https://ewenmunro.com/about">About</a></li>
+            <li>
+              <a href="#" id="dropdown">Films</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/anatta"> Anattā</a>
+                </li>
+                <li><a href="https://ewenmunro.com/sunyata">Śūnyatā</a></li>
+                <li>
+                  <a href="https://ewenmunro.com/undisclosed-film-project"
+                    >Undisclosed Film Project</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Books</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/the-flow-of-all-things">
+                    The Flow of All Things</a
+                  >
+                </li>
+                <li>
+                  <a href="https://ewenmunro.com/the-shadow-stalker">
+                    The Shadow Stalker</a
+                  >
+                </li>
+                <li>
+                  <a href="https://ewenmunro.com/shadows">
+                    Shadows (photobook)</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Screenplays</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/anatta-screenplay">Anattā</a>
+                </li>
+                <li>
+                  <a href="https://ewenmunro.com/sunyata-screenplay">
+                    Śūnyatā</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Stage Plays</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/the-infinite-faces-of-man">
+                    The Infinite Faces of Man</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="dropdown">Essays</a>
+              <ul>
+                <li>
+                  <a href="https://ewenmunro.com/the-fallacy-of-improvement">
+                    The Fallacy of Improvement</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="https://ewenmunro.com/the-void">The Void</a></li>
+            <li>
+              <a href="https://ewenmunro.com/env">Environment Projects</a>
+            </li>
+            <li>
+              <a href="https://ewenmunro.com/music">Music</a>
+            </li>
+            <li><a href="https://ewenmunro.com/coffee">Buy Me A Coffee</a></li>
+            <!-- <li>
+              <a href="https://ewen-munro.creator-spring.com" target="_blank"
+                >Store</a
+              >
+            </li> -->
+            <li>
+              <a
+                href="https://ewenmunro.substack.com/?showWelcome=true"
+                target="_blank"
+                >Ewen's Journal</a
+              >
+            </li>
+            <li><a href="https://ewenmunro.com/contact">Contact</a></li>
+            <br /><br />
+          </ul>
+        </nav>
+      </section>
+      <!-- menu button -->
+      <section id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+      </section>
+    </header>
+    <main>
+      <section class="columns">
+        <article class="page-text">
+          <!-- The Void heading -->
+          <h1>The Void</h1>
+          <!-- The Void message-->
+          <p>
+            Discover The Void, an open diary about the nothingness from where
+            all inspiration is birthed:
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/videoseries?si=Ho-nldkpqrmasTLh&amp;list=PL2c8FGCll59dwkihxWPLlZSQOs4J0rXE7"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            id="video"
+          ></iframe>
+          <br />
+        </article>
+      </section>
+      <section class="columns">
+        <article class="page-text">
+          <!-- newsletter heading -->
+          <h1>Ewen's Journal</h1>
+          <!-- newsletter -->
+          <p>
+            Subscribe to stay updated on my latest projects and creative work.
+          </p>
+          <div class="btn-container">
+            <a
+              href="https://ewenmunro.substack.com/?showWelcome=true"
+              target="_blank"
+              class="btn"
+              >Subscribe</a
+            >
+          </div>
+        </article>
+      </section>
+      <br /><br /><br />
+    </main>
+    <footer>
+      <section class="social-menu">
+        <ul>
+          <!-- social media links -->
+          <li>
+            <a href="https://youtube.com/c/ewenmunro" target="_blank">
+              <i class="fa fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/ewenmunro" target="_blank">
+              <i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ewenmunro08" target="_blank">
+              <i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://letterboxd.com/ewenmunro/" target="_blank">
+              <img
+                src="./svg/letterboxd-brands-solid.svg"
+                class="social-image"
+                alt="LetterBox logo of three circles interlaced with each other"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="copyright-text">
+        <!-- copyright -->
+        Copyright &#169; Ewen Munro 2026
+      </section>
+    </footer>
+  </body>
+</html>
